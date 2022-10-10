@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /*Schriftart vererbt sich auf alle Unterelemente*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Selektor{
+        eigenschaft: wert;
+}
+*/
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: #fccc70;
+  text-decoration: none;
+  background-color: #2ed380;
+  padding: 10px;
+  border: 2px solid #fccc70;
+  /*abgerundete Ecken*/
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px 5px grey;
+  display: block;
+  width: 600px;
+}
+p {
+  border: 2px solid #fccc70;
+  padding: 10px;
+  width: 600px;
+}
+img {
+  width: 600px;
+}
+/* Eine ID in HTML wird zu einer # in CSS*/
+#zwei {
+  background-color: aliceblue;
+}
+/* eine Klasse in HTML wird zu einem . in CSS*/
+.gelb {
+  background-color: yellowgreen;
+}
+.red-border {
+  border-color: purple;
+}
